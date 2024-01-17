@@ -1,0 +1,12 @@
+.hero{
+    height: 1000px;
+    width: 1000px;
+    background-image: url("https://github.com/cristianmihai01/yoga-landing-starter/blob/main/src/assets/img/hero/guy.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}

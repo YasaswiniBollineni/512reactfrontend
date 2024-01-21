@@ -1,0 +1,56 @@
+/* yoga.css */
+
+.yoga-container {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Your Preferred Font', sans-serif; /* Change to the desired font */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .yoga-container.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  h1, h2 {
+    font-size: larger;
+    color: #4CAF50; /* Change to your preferred text color */
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px; /* Change to your preferred font size */
+  }
+  .ram{
+    align-items: center;
+  }
+  ul {
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  .h2{
+    text-decoration: solid;
+    text-transform: capitalize;
+  }
+  li {
+    margin-bottom: 10px;
+    font-weight: bold; /* Change to your preferred font weight */
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .classes-section{
+    text-shadow:skyblue;
+    text-decoration-style: wavy;
+  }

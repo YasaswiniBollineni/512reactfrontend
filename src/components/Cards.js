@@ -7,14 +7,14 @@ import CardImage3 from '../assets/img/cards/card-3.png';
 const Cards = () => {
   return (
     <section className='bg-cardsBg min-h-[260px] pb-[55px]
-    lg:-mt-24' data-aos='fade-up' data-aos-delay='800' data-aos-duration='160'>
+    lg:-mt-24'>
       
       <div className='container mx-auto flex flex-col lg:flex-row gap-x-[32px]'>
         {/*card group*/}
         <div className='flex-1 flex gap-x-[15px] lg:gap-x-[32px] -mt-[38px] z-10 lg:mt-[-77px] mx-auto'>
           {/*card 1*/}
           <div className='bg-white w-full max-w-[282px]
-          p-[14px] lg:p-[26px] shadow-2xl rounded-md max-h-[282px]' data-aos='fade-up' data-aos-delay='500'>
+          p-[14px] lg:p-[26px] shadow-2xl rounded-md max-h-[282px]'>
             {/*card text*/}
             <div className='flex items-center mb-[18px]
             lg:mb-[28px]'>
@@ -28,7 +28,7 @@ const Cards = () => {
           </div>
           {/*card 2*/}
           <div className='bg-white w-full max-w-[282px]
-          p-[14px] lg:p-[26px] shadow-2xl rounded-md max-h-[282px]' data-aos='fade-up' data-aos-delay='600'>
+          p-[14px] lg:p-[26px] shadow-2xl rounded-md max-h-[282px]' data-aos='fade-up'>
               {/*card text*/}
               <div className='flex items-center mb-[18px]
             lg:mb-[28px]'>

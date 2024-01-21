@@ -1,45 +1,19 @@
-import React from 'react';
-
-// import Logo
-import Logo from '../assets/img/logo.png';
-
-//import icons
-import {FaYoutube, FaInstagram, FaGithub} from 'react-icons/fa';
-
-function Footer(){
-  return(
-<footer className='pb-[70px]'>
-<div className="container mx-auto">
-<div className='flex flex-col justify-between items-center lg:flex-row gap-y-5'>
-{/* Logo */}
-<a href="#">
-  <img src={Logo} alt="" />
-</a>
-{/* copyright text */}
-<p> &copy; 2024. All rights reserved.</p>
-{/* social icons */}
-<div className='flex gap-x-4 text-orange text-lg'>
-<div className='w-[50px] h-[50px] bg-pin-200 rounded-full flex 
-justify-center items-center shadow-primary hover:text-paragraph transition'>
-<FaYoutube />
-</div>
-<div className='w-[50px] h-[50px] bg-pin-200 rounded-full flex 
-justify-center items-center shadow-primary hover:text-paragraph transition'>
-<FaInstagram />
-</div>
-<div className='w-[50px] h-[50px] bg-pin-200 rounded-full flex 
-justify-center items-center shadow-primary hover:text-paragraph transition'>
-<FaGithub />
-</div>
-</div>
-
-</div>
-</div>
-
-</footer>
-  );
-};
-
-
-export default Footer;
-
+//Footer.js
+import { Link, Routes, Route } from "react-router-dom";
+import './Footer.css';
+export default function Footer() {
+    return (
+        <>
+            <footer>
+                <p class="quote">This website contains details of various persons.</p>
+                <div class="icons">
+                    <li><a href=""><Link to='/facebook'><i class="fa-brands fa-facebook fa-bounce"></i></Link>Facebook</a></li>
+                    <li><a href=""><Link to='/instagram'><i class="fa-brands fa-instagram fa-bounce"></i></Link>Instagram</a></li>
+                    <li><a href=""><Link to='/github'><i class="fa-brands fa-github fa-bounce"></i></Link>Github</a></li>
+                    <li><a href=""><Link to='/Linkedin'><i class="fa-brands fa-linkedin fa-bounce"></i></Link>Linkedin</a></li>
+                </div>
+                <a href="mailto:gurramsivaanjali2004@gmail.com">Contact me</a>
+            </footer>
+        </>
+    )
+}

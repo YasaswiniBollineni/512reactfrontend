@@ -23,6 +23,45 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Bold text for "Home" and "About" links */
+nav a[href="/Signup"],
+nav a[href="/Login"] {
+  font-weight: bold;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Customize as needed */
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +74,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -8,10 +8,7 @@ import CourseImage2 from '../src/assets/img/courses/course-2.png';
 import CourseImage3 from '../src/assets/img/courses/course-3.png';
 
 export const navigation = [
-  {
-    name: 'Home',
- href: '#',
-  },
+  
   
   {
     name: 'Features',
